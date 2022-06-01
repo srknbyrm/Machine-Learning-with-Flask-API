@@ -1,0 +1,32 @@
+{% extends "home.html" %}
+
+
+{% block page_content %}
+
+<body>
+<h1 align="center">Results</h1>
+<hr>
+
+<div class="card">
+    <div class="card-header text-white bg-dark">Statistics</div>
+    <div class="card-body">
+        <div class="row row-10">
+            <h6>R2 Value: {{R2}}</h6>
+            <br>
+        </div>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-header text-white bg-dark">Plot</div>
+    <div class="card-body">
+        <div class="row row-8">
+            <img src='/static/images/image1.png' alt="User Image">
+            <br>
+        </div>
+    </div>
+</div>
+
+</body>
+{% endblock %}
